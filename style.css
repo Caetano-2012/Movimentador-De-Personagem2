@@ -13,19 +13,35 @@ body{
     background-color: #ddd;
     border: 2px solid #000;
 }
-.player, .goal {
+.player, .goal, .obstacle{
     position: absolute;
     width: 40px;
     height: 40px;
     border-radius: 10px;
 }
 .player {
-    background-color: blue;
+    background-image: url("personagem-removebg-preview.png");
     top: 180px;
     left: 180px;
+    background-size: cover;
 }
 .goal {
     background: green;
     top: 50px;
     left: 300px;
+}
+.obstacle {
+    background-color: grey;
+}
+.obstacle1 {
+    top: 100px;
+    left: 100px;
+}
+.obstacle2 {
+    top: 200px;
+    left: 250px;
+}
+.obstacle3 {
+    top: 300px;
+    left: 150px;
 }
